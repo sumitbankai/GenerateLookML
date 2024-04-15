@@ -3,42 +3,42 @@
             sql_table_name: public.staff_list ;;
                 dimension: id {
         type: number
-        sql: ${TABLE}.id ;;
+        sql: ${TABLE}.`id` ;;
     }
 
     dimension: sid {
         type: number
-        sql: ${TABLE}.sid ;;
+        sql: ${TABLE}.`sid` ;;
     }
 
     dimension: address {
         type: string
-        sql: ${TABLE}.address ;;
+        sql: ${TABLE}.`address` ;;
     }
 
     dimension: zip code {
         type: string
-        sql: ${TABLE}.zip code ;;
+        sql: ${TABLE}.`zip code` ;;
     }
 
     dimension: phone {
         type: string
-        sql: ${TABLE}.phone ;;
+        sql: ${TABLE}.`phone` ;;
     }
 
     dimension: city {
         type: string
-        sql: ${TABLE}.city ;;
+        sql: ${TABLE}.`city` ;;
     }
 
     dimension: country {
         type: string
-        sql: ${TABLE}.country ;;
+        sql: ${TABLE}.`country` ;;
     }
 
     dimension: name {
         type: string
-        sql: ${TABLE}.name ;;
+        sql: ${TABLE}.`name` ;;
     }
 
             }
