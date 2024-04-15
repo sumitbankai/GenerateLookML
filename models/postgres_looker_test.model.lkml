@@ -1,7 +1,7 @@
 connection: "postgres_test"
 
 # include all the views
-include: "/updated_views/**/*.view.lkml"
+include: "/views/**/*.view.lkml"
 
 datagroup: postgres_looker_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
