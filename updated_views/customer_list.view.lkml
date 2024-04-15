@@ -16,7 +16,7 @@
         sql: ${TABLE}.address ;;
     }
 
-    dimension: zipcode {
+    dimension: zip code {
         type: string
         sql: ${TABLE}.zip code ;;
     }
@@ -47,3 +47,4 @@
     }
 
             }
+            
