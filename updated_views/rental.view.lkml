@@ -3,37 +3,37 @@
             sql_table_name: public.rental ;;
                 dimension: rental_id {
         type: number
-        sql: ${TABLE}.`rental_id` ;;
+        sql: ${TABLE}.rental_id ;;
     }
 
     dimension: rental_date {
         type: number
-        sql: ${TABLE}.`rental_date` ;;
+        sql: ${TABLE}.rental_date ;;
     }
 
     dimension: inventory_id {
         type: number
-        sql: ${TABLE}.`inventory_id` ;;
+        sql: ${TABLE}.inventory_id ;;
     }
 
     dimension: customer_id {
         type: number
-        sql: ${TABLE}.`customer_id` ;;
+        sql: ${TABLE}.customer_id ;;
     }
 
     dimension: return_date {
         type: number
-        sql: ${TABLE}.`return_date` ;;
+        sql: ${TABLE}.return_date ;;
     }
 
     dimension: staff_id {
         type: number
-        sql: ${TABLE}.`staff_id` ;;
+        sql: ${TABLE}.staff_id ;;
     }
 
     dimension: last_update {
         type: number
-        sql: ${TABLE}.`last_update` ;;
+        sql: ${TABLE}.last_update ;;
     }
 
             }
